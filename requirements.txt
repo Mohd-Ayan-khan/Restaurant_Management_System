@@ -1,0 +1,8 @@
+#Ragistration
+uuid = 1.30
+
+#logs
+datetime = 6.0
+
+#protection
+maskpass = 0.3.7
