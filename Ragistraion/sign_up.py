@@ -1,4 +1,5 @@
 from validations.sign_up_validations import staff_sign_up_validate
+from validations.validation_log import Error_log
 import uuid
 import maskpass
 
@@ -38,30 +39,32 @@ class staff:
                         option = input("Enter your role :")
                         
                         if option == "1":
-                            role = "chef"
+                            self.role = "chef"
+                            break
                         elif option == "2":
-                            role = "Manager"
+                            self.role = "Manager"
+                            break
                         elif option == "3":
-                            role = "Receptionist"
+                            self.role = "Receptionist"
+                            break
                         elif option == "4":
-                            role = "Waiter"
+                            self.role = "Waiter"
+                            break
                         elif option == "5":
-                            role = "Cashier"
+                            self.role = "Cashier"
+                            break
                         else:
                             print("**************")
                             print("invalid Number")
                             print("**************")
-            
-            staff_sign_up_validate()
                             
         except Exception as f:
-            with open("logs/error.txt","a") as file:
-                file.write(str(f)+"\n")
-            
+            Error_log(str(f))
+            return
        
                
 
-        staff_sign_up_validate(self.user_id,self.user_name,self.full_name,self.password,self.Email,self.phone_number)
+        staff_sign_up_validate(self.user_name,self.full_name,self.password,self.Email,self.phone_number)
 
         print("================================")
         print(f" User_id   :  {self.user_id}")

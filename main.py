@@ -1,3 +1,3 @@
-from Ragistraion.sign_up import sign_up
+from domain.sign_up_menu import check_menu
 
-sign_up()
+check_menu()

@@ -1,4 +1,5 @@
 from Ragistraion.sign_up import staff
+from validations.validation_log import Error_log
 def check_menu():
     
   try:
@@ -17,4 +18,10 @@ def check_menu():
                 if choice == "1":
                   pass
                 elif choice == "2":
-                  staff.staff_sign_up()
+                  staff().staff_sign_up()
+                  
+  except Exception as a:
+    Error_log(str(a))
+    print("--------------------")
+    print("something went wrong")
+    print("--------------------")
