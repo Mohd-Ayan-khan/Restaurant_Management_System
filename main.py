@@ -1,3 +1,3 @@
-from domain.sign_up_menu import check_menu
+from domain.main_menu import menu
 
-check_menu()
+menu()
