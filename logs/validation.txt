@@ -40,3 +40,93 @@ PATH  : D:\Restaurant_Management_System
 ERROR : Phone number length must be 10
 ==================================================
 
+==================================================
+TIME  : 24-09-2026 03:50:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Empty Email
+==================================================
+
+==================================================
+TIME  : 24-09-2026 03:54:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@) must be before (.)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 03:57:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:12:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:20:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:20:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:21:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:22:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:25:44 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:25:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:25 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:40:26 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+

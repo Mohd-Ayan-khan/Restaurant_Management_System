@@ -1,0 +1,6 @@
+==================================================
+TIME  : 24-09-2026 03:51:12 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'sing_in' object has no attribute 'Email'
+==================================================
+

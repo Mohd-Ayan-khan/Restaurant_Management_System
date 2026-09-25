@@ -18,7 +18,6 @@ class staff:
         self.role = ""
 
     def staff_sign_up(self):
-        data = []
 
         try:
 

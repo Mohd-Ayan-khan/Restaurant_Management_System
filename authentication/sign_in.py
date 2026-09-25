@@ -1,30 +1,37 @@
+from validations.sign_in_validation import sign_in_validate
+from domain.admin_dashboard import admin_dashboard
+from domain.staff_dashboard import staff_dashboard
 import json
 
-class sing_in:
 
-    def admin_sign_in(self,id,password):
+def sign_in():
 
-        with open("database/admin_data.json", "r") as file:
-            admin = json.load(file)
+    gmail_id = input("Enter Your Gmail id : ")
+    password = input("Enter Your password : ")
 
-        if admin["id"] == id and admin["password"] == password:
-            print("data found")
-        else:
-            print("data not found")
+    gmail_id, password = sign_in_validate(gmail_id, password)
 
-    def staff_sign_in(self,id,password):
+    with open("database/user.json", "r") as file:
+        sign = json.load(file)
 
-        with open("database/staff_data.json", "r") as file:
-            staff = json.load(file)
+    found = False
 
-        found = False
+    for user in sign:
 
-        for user in staff:
-            if user["id"] == id and user["password"] == password:
-                print("staff found")
-                found = True
-                break
+        if user["gmail"] == gmail_id and user["password"] == password:
 
-        if found == False:
-            print("staff not found")
+            found = True
+
+            if user["role"] == "admin":
+                admin_dashboard()
+
+            elif user["role"] == "staff":
+                staff_dashboard()
+
+            break
+
+    if found == False:
+        print("-------------------------")
+        print("Invalid gmail or password")
+        print("-------------------------")
 
