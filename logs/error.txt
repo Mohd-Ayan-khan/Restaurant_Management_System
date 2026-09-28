@@ -4,3 +4,105 @@ PATH  : D:\Restaurant_Management_System
 ERROR : 'sing_in' object has no attribute 'Email'
 ==================================================
 
+==================================================
+TIME  : 26-09-2026 03:06:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:07:06 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:11:32 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:18:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:28:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:33:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:14:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:16:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:21:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:23:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:28:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:32:57 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:39:09 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:40:26 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : menu_validate.delete_item_validate() takes 2 positional arguments but 3 were given
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:03:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:08:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:10:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+

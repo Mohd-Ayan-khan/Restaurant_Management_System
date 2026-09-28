@@ -51,6 +51,16 @@ def sign_in_validate(id, password):
                 print("************************")
 
                 id = input("Enter your Email again : ")
+            
+            elif "@gmail.com" not in id:
+                validation_log("(@gmail.com) not in gmail")
+            
+                print("************************")
+                print("gmail must be have (@gmail.com)")
+                print("************************")
+            
+                id = input("Enter your Email again : ")
+            
 
             else:
                 break

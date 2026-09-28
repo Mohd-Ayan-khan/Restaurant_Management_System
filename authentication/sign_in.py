@@ -1,6 +1,6 @@
 from validations.sign_in_validation import sign_in_validate
-from domain.admin_dashboard import admin_dashboard
-from domain.staff_dashboard import staff_dashboard
+from domain.Admin.admin_dashboard import Admin
+from domain.staff.staff_dashboard import staff
 import json
 
 
@@ -23,10 +23,16 @@ def sign_in():
             found = True
 
             if user["role"] == "admin":
-                admin_dashboard()
+                print("=================")
+                print("login successfull")
+                print("=================")
+                Admin().admin_dashboard()
 
-            elif user["role"] == "staff":
-                staff_dashboard()
+            else:
+                print("=======================")
+                print("Staff login successfull")
+                print("=======================")
+                staff().staff_dashboard()
 
             break
 

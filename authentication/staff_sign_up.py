@@ -21,7 +21,7 @@ class staff:
 
         try:
 
-            self.user_id = str(uuid.uuid4().int)[:3]
+            self.user_id = str(uuid.uuid4().int)[:1]
             self.user_name = input("Enter your username : ")
             self.full_name = input("Enter your Full Name : ").upper()
             self.password = maskpass.askpass("Enter your password : ",mask="*")
@@ -70,6 +70,8 @@ class staff:
                     print("**************")
                     print("Invalid Number")
                     print("**************")
+                
+                staff_sign_up_validate(self.user_name,self.full_name,self.password,self.Email,self.phone_number)
 
             print("\n================================")
             print("----- Ragistration -----")
@@ -98,12 +100,12 @@ class staff:
                     "Contact" : self.phone_number,
                     "Role" : self.role} 
             
-            with open("database/staff_data.json","r") as file:
+            with open("database/user.json","r") as file:
                 add = json.load(file)
             
             add.append(dict)
             
-            with open("database/staff_data.json","w") as file:
+            with open("database/user.json","w") as file:
                 json.dump(add,file,indent=4)
             
             print("-------------------")
@@ -116,5 +118,5 @@ class staff:
             Error_log(str(f))
 
             print("--------------------")
-            print("Something went wrong")
+            print("Error :",f)
             print("--------------------")
