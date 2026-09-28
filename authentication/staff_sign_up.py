@@ -18,10 +18,12 @@ class staff:
         self.role = ""
 
     def staff_sign_up(self):
+        with open("database/user.json",'r') as file:
+            user = json.load(file)
 
         try:
 
-            self.user_id = str(uuid.uuid4().int)[:1]
+            self.user_id =  str(len(user) + 1)
             self.user_name = input("Enter your username : ")
             self.full_name = input("Enter your Full Name : ").upper()
             self.password = maskpass.askpass("Enter your password : ",mask="*")

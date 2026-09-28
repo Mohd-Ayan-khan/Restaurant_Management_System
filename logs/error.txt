@@ -106,3 +106,123 @@ PATH  : D:\Restaurant_Management_System
 ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
 ==================================================
 
+==================================================
+TIME  : 28-09-2026 12:58:15 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 01:03:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:51:29 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'staff' object has no attribute 'userr_name'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:04:50 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:09:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:16:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:18:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:25:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:27:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'password'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:27:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'role'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:29:21 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'role'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:30:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : staff.staff_dashboard() takes 0 positional arguments but 1 was given
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:33:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'Password'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:36:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:45:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:56:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:58:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:58:32 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:59:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 05:02:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+

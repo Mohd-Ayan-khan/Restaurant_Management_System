@@ -6,8 +6,16 @@ from validations.validation_log import Error_log
 def sign_in_validate(id, password):
     try:
         while True:
+            if not any(ch.isalpha() for ch in id):
+                validation_log("Gmail must contain alphabets")
+                print("-----------------------------")
+                print("Gmail must contain alphabets")
+                print("-----------------------------")
 
-            if id == "":
+                id = input("Enter your Gmail again : ")
+
+
+            elif id == "":
                 validation_log("Empty Email")
 
                 print("*****************************")
@@ -45,20 +53,18 @@ def sign_in_validate(id, password):
 
             elif id.index("@") > id.index("."):
                 validation_log("(@) must be before (.)")
-
+                
                 print("************************")
                 print("(@) must be before (.)")
                 print("************************")
-
                 id = input("Enter your Email again : ")
             
             elif "@gmail.com" not in id:
                 validation_log("(@gmail.com) not in gmail")
-            
+                
                 print("************************")
                 print("gmail must be have (@gmail.com)")
                 print("************************")
-            
                 id = input("Enter your Email again : ")
             
 
@@ -102,5 +108,5 @@ def sign_in_validate(id, password):
     except Exception as f:
         Error_log(str(f))
         print("*******************")
-        print("somthing went wrong")
+        print("Error",f)
         print("*******************")

@@ -1,10 +1,19 @@
 [
     {
-        "id" : "1",
+        "User Id": "1",
         "Full Name": "Ayan Solanki",
         "user_id": "ayankhan101",
-        "gmail": "ayankhan099@gmail.com",
-        "password": "ayankhan99",
-        "role": "admin"
+        "Email": "ayankhan099@gmail.com",
+        "Password": "ayankhan99",
+        "Role": "admin"
+    },
+    {
+        "User Id": "2",
+        "Full Name": "AYANKHAN",
+        "Username": "ayan",
+        "Password": "kingkholi",
+        "Email": "ayankhan@gmail.com",
+        "Contact": "7878787878",
+        "Role": "Manager"
     }
 ]

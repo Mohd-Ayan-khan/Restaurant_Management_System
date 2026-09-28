@@ -59,7 +59,7 @@ class Admin:
                 print("\n************************")
                 print(" -- Staff Management -- ")
                 print("************************")
-                print("1. -- ADD Staff")
+                print("1. -- ADD Staff --")
                 print("------------------------")
                 print("2. -- UPDATE Staff --")
                 print("------------------------")
@@ -80,7 +80,7 @@ class Admin:
                     obj.add_staff()
                 
                 elif choice == "2":
-                    pass
+                    obj.update_staff()
                 
                 elif choice == "3":
                     pass
@@ -99,7 +99,7 @@ class Admin:
         except Exception as f:
             Error_log(str(f))
             print("--------------------")
-            print("something went wrong")
+            print(f)
             print("--------------------")
             
     def admin_dashboard(self):

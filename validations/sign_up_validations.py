@@ -8,7 +8,7 @@ def staff_sign_up_validate(self):
     try:
 
         while True:
-
+        
             if self.user_name == "":
                 validation_log("Empty username")
                 

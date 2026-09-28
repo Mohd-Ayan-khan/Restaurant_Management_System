@@ -2,12 +2,12 @@ from validations.validation_log import validation_log
 from validations.validation_log import Error_log
 
 class staff:
-    def staff_dashboard():
+    def staff_dashboard(self):
         try:
             while True:
-                print("===================")
-                print("\t\tSTAFF DASHBOARD")
-                print("===================")
+                print("===========================")
+                print("\tSTAFF DASHBOARD")
+                print("===========================")
                 print("-----------------")
                 print(" 1. Table Booking")
                 print("-----------------")
