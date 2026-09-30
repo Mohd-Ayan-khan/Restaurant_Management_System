@@ -1,3 +1,3 @@
-from domain.main_menu import menu
+from app.domain.main_menu import menu
 
 menu()

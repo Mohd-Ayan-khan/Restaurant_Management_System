@@ -1,0 +1,414 @@
+==================================================
+TIME  : 21-09-2026 02:37:12 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Short length username
+==================================================
+
+==================================================
+TIME  : 21-09-2026 02:37:21 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Short length username
+==================================================
+
+==================================================
+TIME  : 21-09-2026 02:37:26 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 21-09-2026 02:37:35 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 21-09-2026 03:04:36 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@) must be before (.)
+==================================================
+
+==================================================
+TIME  : 21-09-2026 08:15:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 21-09-2026 08:20:12 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 24-09-2026 03:50:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Empty Email
+==================================================
+
+==================================================
+TIME  : 24-09-2026 03:54:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@) must be before (.)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 03:57:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:12:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:20:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:20:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:21:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:22:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:25:44 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 04:25:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:25 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:32:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 24-09-2026 11:40:26 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:04:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:04:56 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:11:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:11:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:11:45 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@gmail.com) not in gmail
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:11:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:11:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Empty password
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:12:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 25-09-2026 07:12:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:10:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:11:00 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:33:12 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:36:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:55:28 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : empty category
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:55:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:55:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : price must be grater 0 and less than 2000
+==================================================
+
+==================================================
+TIME  : 27-09-2026 12:46:17 AM
+PATH  : D:\Restaurant_Management_System
+ERROR : Price must be greater than 0 and less then 2000
+==================================================
+
+==================================================
+TIME  : 27-09-2026 12:47:22 AM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:13:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:21:25 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:01:06 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@gmail.com) not in gmail
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:02:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:02:25 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:02:36 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:02:48 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:06:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:08:06 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:08:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:09:56 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 28-09-2026 12:58:09 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@gmail.com) not in gmail
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:34:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:49:56 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Gmail must contain alphabets
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:50:04 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:51:19 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:03:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:04:00 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Gmail must contain alphabets
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:04:23 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:04:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:09:35 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:21:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:50:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:51:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:51:09 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Phone number length must be 10
+==================================================
+
+==================================================
+TIME  : 28-09-2026 05:03:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 28-09-2026 05:04:45 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 28-09-2026 05:56:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 30-09-2026 06:43:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : price must be grater 0 and less than 2000
+==================================================
+

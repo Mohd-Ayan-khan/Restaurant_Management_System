@@ -1,0 +1,500 @@
+[
+    {
+        "id": 1,
+        "name": "Potato",
+        "category": "Vegetables",
+        "quantity": 50,
+        "price": 40
+    },
+    {
+        "id": 2,
+        "name": "Tomato",
+        "category": "Vegetables",
+        "quantity": 40,
+        "price": 50
+    },
+    {
+        "id": 3,
+        "name": "Onion",
+        "category": "Vegetables",
+        "quantity": 45,
+        "price": 45
+    },
+    {
+        "id": 4,
+        "name": "Carrot",
+        "category": "Vegetables",
+        "quantity": 30,
+        "price": 60
+    },
+    {
+        "id": 5,
+        "name": "Capsicum",
+        "category": "Vegetables",
+        "quantity": 25,
+        "price": 80
+    },
+    {
+        "id": 6,
+        "name": "Cabbage",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 40
+    },
+    {
+        "id": 7,
+        "name": "Cauliflower",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 50
+    },
+    {
+        "id": 8,
+        "name": "Spinach",
+        "category": "Vegetables",
+        "quantity": 15,
+        "price": 30
+    },
+    {
+        "id": 9,
+        "name": "Green Peas",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 100
+    },
+    {
+        "id": 10,
+        "name": "Garlic",
+        "category": "Vegetables",
+        "quantity": 15,
+        "price": 120
+    },
+    {
+        "id": 11,
+        "name": "Milk",
+        "category": "Dairy",
+        "quantity": 30,
+        "price": 60
+    },
+    {
+        "id": 12,
+        "name": "Butter",
+        "category": "Dairy",
+        "quantity": 15,
+        "price": 550
+    },
+    {
+        "id": 13,
+        "name": "Cheese",
+        "category": "Dairy",
+        "quantity": 20,
+        "price": 450
+    },
+    {
+        "id": 14,
+        "name": "Paneer",
+        "category": "Dairy",
+        "quantity": 25,
+        "price": 350
+    },
+    {
+        "id": 15,
+        "name": "Curd",
+        "category": "Dairy",
+        "quantity": 20,
+        "price": 80
+    },
+    {
+        "id": 16,
+        "name": "Rice",
+        "category": "Grains",
+        "quantity": 50,
+        "price": 70
+    },
+    {
+        "id": 17,
+        "name": "Wheat Flour",
+        "category": "Grains",
+        "quantity": 50,
+        "price": 50
+    },
+    {
+        "id": 18,
+        "name": "Maida",
+        "category": "Grains",
+        "quantity": 40,
+        "price": 45
+    },
+    {
+        "id": 19,
+        "name": "Corn Flour",
+        "category": "Grains",
+        "quantity": 20,
+        "price": 80
+    },
+    {
+        "id": 20,
+        "name": "Oats",
+        "category": "Grains",
+        "quantity": 15,
+        "price": 150
+    },
+    {
+        "id": 21,
+        "name": "Salt",
+        "category": "Spices",
+        "quantity": 30,
+        "price": 25
+    },
+    {
+        "id": 22,
+        "name": "Black Pepper",
+        "category": "Spices",
+        "quantity": 10,
+        "price": 500
+    },
+    {
+        "id": 23,
+        "name": "Turmeric Powder",
+        "category": "Spices",
+        "quantity": 15,
+        "price": 200
+    },
+    {
+        "id": 24,
+        "name": "Red Chilli Powder",
+        "category": "Spices",
+        "quantity": 15,
+        "price": 220
+    },
+    {
+        "id": 25,
+        "name": "Garam Masala",
+        "category": "Spices",
+        "quantity": 10,
+        "price": 300
+    },
+    {
+        "id": 26,
+        "name": "Chicken",
+        "category": "Meat",
+        "quantity": 30,
+        "price": 280
+    },
+    {
+        "id": 27,
+        "name": "Mutton",
+        "category": "Meat",
+        "quantity": 20,
+        "price": 700
+    },
+    {
+        "id": 28,
+        "name": "Fish",
+        "category": "Meat",
+        "quantity": 20,
+        "price": 450
+    },
+    {
+        "id": 29,
+        "name": "Cooking Oil",
+        "category": "Oil",
+        "quantity": 30,
+        "price": 150
+    },
+    {
+        "id": 30,
+        "name": "Olive Oil",
+        "category": "Oil",
+        "quantity": 10,
+        "price": 650
+    },
+    {
+        "id": 31,
+        "name": "Tomato Sauce",
+        "category": "Sauces",
+        "quantity": 20,
+        "price": 120
+    },
+    {
+        "id": 32,
+        "name": "Chilli Sauce",
+        "category": "Sauces",
+        "quantity": 15,
+        "price": 130
+    },
+    {
+        "id": 33,
+        "name": "Soy Sauce",
+        "category": "Sauces",
+        "quantity": 15,
+        "price": 140
+    },
+    {
+        "id": 34,
+        "name": "Mayonnaise",
+        "category": "Sauces",
+        "quantity": 20,
+        "price": 180
+    },
+    {
+        "id": 35,
+        "name": "Bread",
+        "category": "Bakery",
+        "quantity": 30,
+        "price": 45
+    },
+    {
+        "id": 36,
+        "name": "Burger Bun",
+        "category": "Bakery",
+        "quantity": 40,
+        "price": 50
+    },
+    {
+        "id": 37,
+        "name": "Pizza Base",
+        "category": "Bakery",
+        "quantity": 30,
+        "price": 60
+    },
+    {
+        "id": 38,
+        "name": "Garlic Bread",
+        "category": "Bakery",
+        "quantity": 20,
+        "price": 100
+    },
+    {
+        "id": 39,
+        "name": "Tea",
+        "category": "Beverages",
+        "quantity": 20,
+        "price": 250
+    },
+    {
+        "id": 40,
+        "name": "Coffee",
+        "category": "Beverages",
+        "quantity": 20,
+        "price": 400
+    },
+    {
+        "id": 41,
+        "name": "Green Tea",
+        "category": "Beverages",
+        "quantity": 15,
+        "price": 300
+    },
+    {
+        "id": 42,
+        "name": "Cold Drink",
+        "category": "Beverages",
+        "quantity": 50,
+        "price": 40
+    },
+    {
+        "id": 43,
+        "name": "Mineral Water",
+        "category": "Beverages",
+        "quantity": 60,
+        "price": 20
+    },
+    {
+        "id": 44,
+        "name": "Sugar",
+        "category": "Baking Supplies",
+        "quantity": 30,
+        "price": 50
+    },
+    {
+        "id": 45,
+        "name": "Baking Powder",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 180
+    },
+    {
+        "id": 46,
+        "name": "Vanilla Essence",
+        "category": "Baking Supplies",
+        "quantity": 8,
+        "price": 250
+    },
+    {
+        "id": 47,
+        "name": "Cocoa Powder",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 350
+    },
+    {
+        "id": 48,
+        "name": "Honey",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 300
+    },
+    {
+        "id": 49,
+        "name": "Chocolate",
+        "category": "Baking Supplies",
+        "quantity": 15,
+        "price": 250
+    },
+    {
+        "id": 50,
+        "name": "Chocolate Syrup",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 300
+    },
+    {
+        "id": 51,
+        "name": "Coriander",
+        "category": "Vegetables",
+        "quantity": 10,
+        "price": 80
+    },
+    {
+        "id": 52,
+        "name": "Mint",
+        "category": "Vegetables",
+        "quantity": 8,
+        "price": 100
+    },
+    {
+        "id": 53,
+        "name": "Lemon",
+        "category": "Fruits",
+        "quantity": 20,
+        "price": 80
+    },
+    {
+        "id": 54,
+        "name": "Apple",
+        "category": "Fruits",
+        "quantity": 15,
+        "price": 180
+    },
+    {
+        "id": 55,
+        "name": "Banana",
+        "category": "Fruits",
+        "quantity": 20,
+        "price": 60
+    },
+    {
+        "id": 56,
+        "name": "Pineapple",
+        "category": "Fruits",
+        "quantity": 10,
+        "price": 100
+    },
+    {
+        "id": 57,
+        "name": "Coconut",
+        "category": "Fruits",
+        "quantity": 15,
+        "price": 70
+    },
+    {
+        "id": 58,
+        "name": "Cumin",
+        "category": "Spices",
+        "quantity": 5,
+        "price": 400
+    },
+    {
+        "id": 59,
+        "name": "Coriander Powder",
+        "category": "Spices",
+        "quantity": 8,
+        "price": 180
+    },
+    {
+        "id": 60,
+        "name": "Cardamom",
+        "category": "Spices",
+        "quantity": 3,
+        "price": 1200
+    },
+    {
+        "id": 61,
+        "name": "Cinnamon",
+        "category": "Spices",
+        "quantity": 5,
+        "price": 500
+    },
+    {
+        "id": 62,
+        "name": "Cloves",
+        "category": "Spices",
+        "quantity": 3,
+        "price": 700
+    },
+    {
+        "id": 63,
+        "name": "Egg",
+        "category": "Eggs",
+        "quantity": 200,
+        "price": 8
+    },
+    {
+        "id": 64,
+        "name": "Cream",
+        "category": "Dairy",
+        "quantity": 10,
+        "price": 250
+    },
+    {
+        "id": 65,
+        "name": "Ghee",
+        "category": "Dairy",
+        "quantity": 15,
+        "price": 650
+    },
+    {
+        "id": 66,
+        "name": "Coconut Milk",
+        "category": "Dairy",
+        "quantity": 10,
+        "price": 180
+    },
+    {
+        "id": 67,
+        "name": "Ice Cream",
+        "category": "Frozen",
+        "quantity": 20,
+        "price": 300
+    },
+    {
+        "id": 68,
+        "name": "Frozen Peas",
+        "category": "Frozen",
+        "quantity": 15,
+        "price": 180
+    },
+    {
+        "id": 69,
+        "name": "French Fries",
+        "category": "Frozen",
+        "quantity": 25,
+        "price": 160
+    },
+    {
+        "id": 70,
+        "name": "Chicken Nuggets",
+        "category": "Frozen",
+        "quantity": 20,
+        "price": 280
+    },
+    {
+        "id": 71,
+        "name": "proxy",
+        "category": "sdf",
+        "quantity": "8",
+        "price": 2000,
+        "Time": "30-09-2026 06:49:53 PM"
+    }
+]
