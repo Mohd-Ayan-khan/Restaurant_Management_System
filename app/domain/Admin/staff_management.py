@@ -1,6 +1,7 @@
 import json
 from app.validations.validation_log import Error_log
 from app.authentication.staff_sign_up import staff
+from app.validations.validator import validator_functions
 from app.validations.staff_management_validation import staff_management_valid
 
 class staff_management(staff):
@@ -22,6 +23,7 @@ class staff_management(staff):
                 return
 
             user_id = input("Enter staff user id to update : ")
+            user_id = validator_functions().id_validate(user_id)
 
             for staff in staff_data:
 
@@ -108,6 +110,7 @@ class staff_management(staff):
                 return
 
             user_id = input("Enter staff user id to delete : ")
+            user_id = validator_functions().id_validate(id)
 
             for user in users:
                 if user["User Id"] == user_id:

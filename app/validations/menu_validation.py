@@ -33,22 +33,32 @@ class menu_validate:
                     print("-----------------------------")
                     print("Category must be at least 2 characters")
                     print("-----------------------------")
-                    category = input("Enter category : ")
-
-                elif price <= 0 or price > 2000:
-                    validation_log("price must be grater 0 and less than 2000")
-                    print("-----------------------------------------------")
-                    print("Price must be greater than 0 and less than 2000")
-                    print("-----------------------------------------------")
-                    price = int(input("Enter price : "))
+                    category = input("Enter category : ")   
+                    
+                
+                elif not price.isdigit():
+                    validation_log("Quantity must contain only numbers")
+                    print("-----------------------------------")
+                    print("Quantity must contain only numbers")
+                    print("-----------------------------------")
+                    price = input("Enter quantity : ")
 
                 else:
-                    return name, category, price
+                    price = int(price)
 
+                    if price <= 0 or price > 2000:
+                        validation_log("Price must be greater than 0 and less than 2000")
+                        print("-----------------------------------------------")
+                        print("Price must be greater than 0 and less than 2000")
+                        print("-----------------------------------------------")
+                        price = input("Enter price : ")
+                    else:
+                        return name, category, price
+                    
         except Exception as f:
             Error_log(str(f))
             print("-------------------")
-            print("Somthing went wrong")
+            print(f)
             print("-------------------")
     
     
@@ -87,7 +97,6 @@ class menu_validate:
                         print("-----------------------------")
                         print("Category cannot be empty")
                         print("-----------------------------")
-
                         category = input("Enter new category : ")
                         value = category
 
@@ -181,3 +190,38 @@ class menu_validate:
             print("------------------")
             print("error",f)
             print("------------------")
+
+    def quantity_validate(self,quantity):
+        
+        try:
+            while True:
+
+                if quantity == "":
+                    validation_log("Empty quantity")
+                    print("-----------------------------")
+                    print("Quantity cannot be empty")
+                    print("-----------------------------")
+                    quantity = input("Enter quantity : ")
+
+                elif not quantity.isdigit():
+                    validation_log("Quantity must contain only numbers")
+                    print("-----------------------------------")
+                    print("Quantity must contain only numbers")
+                    print("-----------------------------------")
+                    quantity = input("Enter quantity : ")
+
+                elif int(quantity) <= 0:
+                    validation_log("Quantity must be greater than 0")
+                    print("--------------------------------")
+                    print("Quantity must be greater than 0")
+                    print("--------------------------------")
+                    quantity = input("Enter quantity : ")
+
+                else:
+                    return int(quantity)
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-------------------")
+            print(f)
+            print("-------------------")

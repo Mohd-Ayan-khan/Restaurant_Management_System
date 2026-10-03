@@ -121,13 +121,13 @@ class Admin(inventory):
                 choice = input("Enter your choice :")
                 
                 if choice == "1":
-                    pass
+                    inventory().add_item()
                 
                 elif choice == "2":
-                    pass
+                    inventory().update_item()
                 
                 elif choice == "3":
-                    pass
+                    inventory().delete_item()
                 
                 elif choice == "4":
                     break
@@ -173,7 +173,7 @@ class Admin(inventory):
                         self.staff_management_dashboard()
                     
                     elif choice == "3":
-                        inventory().add_item()
+                        self.inventory_management()
                     
                     elif choice == "4":
                         pass

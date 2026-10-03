@@ -244,3 +244,141 @@ PATH  : D:\Restaurant_Management_System
 ERROR : 'dict' object has no attribute 'append'
 ==================================================
 
+==================================================
+TIME  : 01-10-2026 02:18:36 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:20:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:21:24 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:13 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: ''
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:13 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:24:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:29:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:33:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:33:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:48:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:48:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 02-10-2026 10:04:44 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : validator_functions.id_validate() takes 1 positional argument but 2 were given
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:47:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:51:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:58:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:11:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:37:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:54:31 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:58:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+

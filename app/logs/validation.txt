@@ -412,3 +412,219 @@ PATH  : D:\Restaurant_Management_System
 ERROR : price must be grater 0 and less than 2000
 ==================================================
 
+==================================================
+TIME  : 01-10-2026 02:18:36 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:19:31 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:20:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:21:24 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:22:58 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must be greater than 0
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:06 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : price must be grater 0 and less than 2000
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:28:49 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email cannot contain spaces
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:07 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must be greater than 0
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:45 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:32:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must be greater than 0
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:32:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must contain only numbers
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:32:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:33:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:04 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must be greater than 0
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:07 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:47:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must be greater than 0
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:47:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:48:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 02-10-2026 05:54:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must contain only numbers
+==================================================
+
+==================================================
+TIME  : 02-10-2026 05:54:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : name lenght must be 3
+==================================================
+
+==================================================
+TIME  : 02-10-2026 05:54:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : category length must be 3
+==================================================
+
+==================================================
+TIME  : 02-10-2026 05:54:23 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Quantity must contain only numbers
+==================================================
+
+==================================================
+TIME  : 02-10-2026 09:35:09 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 02-10-2026 10:04:25 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 02-10-2026 10:08:34 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : id only consider number
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:37:31 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : id only consider number
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:48:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:57:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:58:34 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : id only consider number
+==================================================
+
+==================================================
+TIME  : 03-10-2026 04:03:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 03-10-2026 04:04:04 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Price must contain only numbers
+==================================================
+

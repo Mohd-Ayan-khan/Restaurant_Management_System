@@ -1,11 +1,11 @@
 import json
 from app.validations.validation_log import Error_log
 from app.validations.menu_validation import menu_validate
-
+from app.validations.validator import validator_functions
 class menu_management:
     def add_item(self):
+        obj = validator_functions()
         try:
-            print("fuction started")
             with open("app/database/menu.json", "r") as file:
                 menu = json.load(file)
 
@@ -13,7 +13,7 @@ class menu_management:
 
             name = input("Enter item name : ")
             category = input("Enter category : ")
-            price = int(input("Enter price : "))
+            price = input("Enter price : ")
 
             print("1. is veg")
             print("2. is not veg")
@@ -24,7 +24,9 @@ class menu_management:
             else:
                 isVeg = False
             
-            name,category,price = menu_validate().add_validate(name,category,price)
+            name = obj.name_validate(name)
+            category = obj.category_validate(category)
+            price = obj.price_validate(price)
 
             item = {
                 "id": id,
@@ -54,13 +56,14 @@ class menu_management:
     
     
     def update_item(self):
-        obj = menu_validate()
+        obj = validator_functions()
         try:
             with open("app/database/menu.json", "r") as file:
                 menu = json.load(file)
 
             id = int(input("Enter update item id : "))
-
+            id = validator_functions().id_validate(id)
+            
             for item in menu:
                 if item["id"] == id:
                     
@@ -82,17 +85,17 @@ class menu_management:
 
                     if choice == 1:
                         name = input("Enter new item name : ")
-                        name = obj.update_validate(choice,name)
+                        name = obj.name_validate(name)
                         item["name"] = name
 
                     elif choice == 2:
                         category = input("Enter new category : ")
-                        category = obj.update_validate(choice,category)
+                        category = obj.category_validate(category)
                         item["category"] = category
 
                     elif choice == 3:
                         price = int(input("Enter new price : "))
-                        price = obj.update_validate(choice,price)
+                        price = obj.price_validate(price)
                         item["price"] = price
 
                     elif choice == 4:
@@ -145,6 +148,7 @@ class menu_management:
                 return
 
             item_id = int(input("Enter item id to delete : "))
+            item_id = validator_functions().id_validate(item_id)
             item_id = menu_validate().delete_item_validate(item_id,menu)
 
             for item in menu:
@@ -199,7 +203,6 @@ class menu_management:
                     print("Available   : Yes")
                 else:
                     print("Available   : No")
-
                 print("----------------------------------------------")
 
         except Exception as f:
