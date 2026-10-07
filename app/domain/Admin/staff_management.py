@@ -40,39 +40,39 @@ class staff_management(staff):
                         print("7. Exit")
                         print("--------------------------------")
 
-                        choice = int(input("What do you want to update : "))
+                        choice = input("What do you want to update : ")
 
-                        if choice == 1:
+                        if choice == "1":
                             value = input("Enter new username : ")
                             value = obj.staff_update_validate(choice, value)
                             staff["Username"] = value
 
-                        elif choice == 2:
+                        elif choice == "2":
                             value = input("Enter new full name : ")
                             value = obj.staff_update_validate(choice, value)
                             staff["Full Name"] = value
 
-                        elif choice == 3:
+                        elif choice == "3":
                             value = input("Enter new password : ")
                             value = obj.staff_update_validate(choice, value)
                             staff["Password"] = value
 
-                        elif choice == 4:
+                        elif choice == "4":
                             value = input("Enter new Email : ")
                             value = obj.staff_update_validate(choice, value)
                             staff["Email"] = value
 
-                        elif choice == 5:
+                        elif choice == "5":
                             value = input("Enter new contact : ")
                             value = obj.staff_update_validate(choice, value)
                             staff["Contact"] = value
 
-                        elif choice == 6:
+                        elif choice == "6":
                             value = int(input("Enter new role : "))
                             value = obj.staff_update_validate(choice, value)
                             staff["Role"] = value
                         
-                        elif choice == 7:
+                        elif choice == "7":
                             break
 
                         else:

@@ -182,6 +182,7 @@ class staff_management_valid:
                             return "Cashier"
 
                         else:
+                            validation_log("invalid role")
                             print("-----------------------------")
                             print("Invalid role")
                             print("-----------------------------")

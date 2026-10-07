@@ -243,13 +243,6 @@ class validator_functions:
                         print("--------------------------------")
                         quantity = input("Enter quantity : ")
                     
-                    elif quantity <= 0:
-                        validation_log("quantity must be greater than 0")
-                        print("-------------------------------")
-                        print("Quantity must be greater than 0")
-                        print("-------------------------------")
-                        quantity = input("Enter Quantity again : ")
-
                     else:
                         return quantity
 
