@@ -1,0 +1,15 @@
+[
+    {
+        "booking_id": "1",
+        "name": "anas",
+        "phone": "7676767676",
+        "quantity": 2,
+        "table_ids": [
+            "1"
+        ],
+        "duration": 1,
+        "booking_time": "07-10-2026 09:03:44 PM",
+        "end_time": "07-10-2026 10:03:44 PM",
+        "status": "Cancelled"
+    }
+]

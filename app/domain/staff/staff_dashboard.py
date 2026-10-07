@@ -4,7 +4,7 @@ from app.domain.Admin.menu_management import menu_management
 from app.domain.Admin.inventory_management import inventory
 from app.domain.staff.order_management import order
 from app.domain.staff.table_management import Table
-
+from app.domain.staff.billing import generate_bill
 class staff(order,menu_management,inventory):
     
     def Table_dashboard(self):
@@ -90,6 +90,9 @@ class staff(order,menu_management,inventory):
                 elif choice == "4":
                     self.view_menu()
                 
+                elif choice == "5":
+                    order().view_order()
+                    
                 elif choice == "6":
                     break
                 
@@ -141,7 +144,7 @@ class staff(order,menu_management,inventory):
                     self.view_inventory()
                 
                 elif choice == "5":
-                    pass
+                    generate_bill()
                 
                 elif choice == "6":
                     break

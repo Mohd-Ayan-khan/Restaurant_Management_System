@@ -838,3 +838,45 @@ PATH  : D:\Restaurant_Management_System
 ERROR : invalid choice
 ==================================================
 
+==================================================
+TIME  : 07-10-2026 08:17:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Full Name must contain first name and last name
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:19:35 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Full Name must contain first name and last name
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:25:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Full Name must contain first name and last name
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:29:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : no allowed space in id
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:29:58 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : no allowed space in id
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:52:29 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:57:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Invalid choice
+==================================================
+

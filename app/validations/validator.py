@@ -242,6 +242,13 @@ class validator_functions:
                         print("Quantity must be greater than 0")
                         print("--------------------------------")
                         quantity = input("Enter quantity : ")
+                    
+                    elif quantity <= 0:
+                        validation_log("quantity must be greater than 0")
+                        print("-------------------------------")
+                        print("Quantity must be greater than 0")
+                        print("-------------------------------")
+                        quantity = input("Enter Quantity again : ")
 
                     else:
                         return quantity
@@ -283,6 +290,7 @@ class validator_functions:
                     print("Phone number must be 10 digits")
                     print("--------------------------------")
                     phone = input("Enter phone number again : ")
+                
 
                 else:
                     return phone

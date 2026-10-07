@@ -4,6 +4,7 @@ from app.domain.Admin.menu_management import menu_management
 from app.domain.Admin.staff_management import staff_management
 from app.domain.Admin.inventory_management import inventory
 from app.domain.staff.table_management import Table
+from app.domain.staff.order_management import order
 
 class Admin(inventory):
     def menu_mangement_dashbord(self):
@@ -163,11 +164,13 @@ class Admin(inventory):
                     print("------------------------")
                     print(" 3. Inventory Management")
                     print("------------------------")
-                    print(" 4. View Table Booking")
+                    print(" 4. Table book ")
                     print("------------------------")
-                    print(" 5. View Order")
+                    print(" 5. View Table Booking")
                     print("------------------------")
-                    print(" 6. Exit")
+                    print(" 6. View Order")
+                    print("------------------------")
+                    print(" 7. Exit")
                     print("------------------------")
                     
                     choice = input("Enter your Choice :")
@@ -182,12 +185,15 @@ class Admin(inventory):
                         self.inventory_management()
                     
                     elif choice == "4":
-                        Table().view_booked_table()
+                        Table().book_table()
                     
                     elif choice == "5":
-                        pass
+                        Table().view_booked_table()
                     
                     elif choice == "6":
+                        order().view_order()
+                    
+                    elif choice == "7":
                         break
                     
                     else:

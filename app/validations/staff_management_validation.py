@@ -47,7 +47,21 @@ class staff_management_valid:
                             print("Full name cannot be empty")
                             print("-----------------------------")
                             value = input("Enter full name again : ")
+                        
+                        elif " " not in value:
+                            validation_log("Full Name must contain first name and last name")
+                            print("-----------------------------")
+                            print("Enter First Name and Last Name")
+                            print("-----------------------------")
+                            value = input("Enter Full Name again : ")
 
+                        elif not value.replace(" ", "").isalpha():
+                            validation_log("Full Name must contain only alphabets")
+                            print("-----------------------------")
+                            print("Full Name must contain only alphabets")
+                            print("-----------------------------")
+                            value = input("Enter Full Name again : ")
+                            
                         else:
                             return value.upper()
 
@@ -123,6 +137,13 @@ class staff_management_valid:
                             validation_log("Empty phone number")
                             print("-----------------------------")
                             print("Phone number cannot be empty")
+                            print("-----------------------------")
+                            value = input("Enter phone number again : ")
+                        
+                        elif " " in value:
+                            validation_log("phone contains spaces")
+                            print("-----------------------------")
+                            print("phone number cannot contain spaces")
                             print("-----------------------------")
                             value = input("Enter phone number again : ")
 

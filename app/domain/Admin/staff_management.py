@@ -86,7 +86,7 @@ class staff_management(staff):
                         print("N0 staff data found")
                         print("-------------------")
 
-                    with open("database/user.json", "w") as file:
+                    with open("app/database/user.json", "w") as file:
                         json.dump(staff_data, file, indent=4)
 
                     print("-----------------------------")

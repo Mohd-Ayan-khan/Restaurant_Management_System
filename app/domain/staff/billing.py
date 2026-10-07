@@ -1,6 +1,7 @@
 import json
 from app.validations.validation_log import Error_log
 
+
 def generate_bill():
     try:
         with open("app/database/order.json", "r") as file:
@@ -14,6 +15,12 @@ def generate_bill():
                 if order["status"] == "Cancelled":
                     print("-----------------------------")
                     print("Cancelled order cannot generate bill")
+                    print("-----------------------------")
+                    return
+
+                if order["status"] == "Completed":
+                    print("-----------------------------")
+                    print("Payment already completed")
                     print("-----------------------------")
                     return
 
@@ -68,90 +75,25 @@ def generate_bill():
                 print("GRAND TOTAL : ₹", final_total)
 
                 print("==================================================")
-                print("                 THANK YOU!")
-                print("==================================================")
-                return
 
-        print("-----------------------------")
-        print("Order ID not found")
-        print("-----------------------------")
+                # PAYMENT
 
-    except Exception as f:
-        Error_log(str(f))
-        print("-----------------------------")
-        print("Something went wrong")
-        print("-----------------------------")
-
-def payment():
-    try:
-        with open("app/database/order.json", "r") as file:
-            orders = json.load(file)
-
-        order_id = input("Enter Order ID : ").strip()
-
-        for order in orders:
-
-            if order["order_id"] == order_id:
-
-                if order["status"] == "Cancelled":
-                    print("-----------------------------------")
-                    print("Cancelled order cannot make payment")
-                    print("-----------------------------------")
-                    return
-
-                if order["status"] == "Completed":
-                    print("-----------------------------")
-                    print("Payment already completed")
-                    print("-----------------------------")
-                    return
-
-                subtotal = 0
-
-                for item in order["items"]:
-                    amount = item["price"] * item["quantity"]
-                    subtotal = subtotal + amount
-
-                discount = input("Enter Discount (%) : ")
-
-                if discount == "":
-                    discount = 0
-                else:
-                    discount = float(discount)
-
-                discount_amount = subtotal * discount / 100
-
-                taxable_amount = subtotal - discount_amount
-
-                gst_rate = 5
-
-                gst = taxable_amount * gst_rate / 100
-
-                final_total = taxable_amount + gst
-
-                print("\n========================================")
                 print("              PAYMENT")
-                print("========================================")
-                print("Order ID :", order["order_id"])
-                print("Table ID :", order["table_id"])
-                print("Subtotal : ₹", subtotal)
-                print("Discount : ₹", discount_amount)
-                print("GST : ₹", gst)
-                print("Final Amount : ₹", final_total)
-                print("========================================")
+                print("==================================================")
 
                 print("1. Cash")
                 print("2. UPI")
                 print("3. Card")
 
-                choice = input("Enter Payment Method : ")
+                payment_choice = input("Enter Payment Method : ")
 
-                if choice == "1":
+                if payment_choice == "1":
                     payment_method = "Cash"
 
-                elif choice == "2":
+                elif payment_choice == "2":
                     payment_method = "UPI"
 
-                elif choice == "3":
+                elif payment_choice == "3":
                     payment_method = "Card"
 
                 else:
@@ -160,33 +102,34 @@ def payment():
                     print("-----------------------------")
                     return
 
-                print("-----------------------------")
-                print("Processing Payment...")
-                print("-----------------------------")
+                print("Amount to Pay : ₹", final_total)
 
-                payment = input("Confirm Payment? (yes/no) : ").lower()
+                confirm = input("Confirm Payment? (yes/no) : ").lower()
 
-                if payment == "yes":
+                if confirm == "yes":
 
                     order["status"] = "Completed"
-                    order["payment_method"] = payment_method
                     order["payment_status"] = "Paid"
+                    order["payment_method"] = payment_method
                     order["total_amount"] = final_total
 
                     with open("app/database/order.json", "w") as file:
                         json.dump(orders, file, indent=4)
 
-                    print("\n========================================")
-                    print("         PAYMENT SUCCESSFUL")
-                    print("========================================")
+                    print("==================================================")
+                    print("             PAYMENT SUCCESSFUL")
+                    print("==================================================")
                     print("Order ID :", order["order_id"])
                     print("Payment Method :", payment_method)
                     print("Amount Paid : ₹", final_total)
                     print("Payment Status : Paid")
                     print("Order Status : Completed")
-                    print("========================================")
+                    print("==================================================")
+                    print("                 THANK YOU!")
+                    print("==================================================")
 
                 else:
+
                     print("-----------------------------")
                     print("Payment cancelled")
                     print("-----------------------------")

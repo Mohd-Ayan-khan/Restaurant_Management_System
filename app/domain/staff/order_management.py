@@ -65,7 +65,7 @@ class order:
                 orders = json.load(file)
 
 
-            order_id = len(orders) + 1
+            order_id = str(len(orders)) + 1
 
             items = []
 
@@ -230,6 +230,62 @@ class order:
             print("-----------------------------")
             print("Order ID not found")
             print("-----------------------------")
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-----------------------------")
+            print("Something went wrong")
+            print("-----------------------------")
+    
+    def view_order(self):
+        try:
+            with open("app/database/order.json", "r") as file:
+                orders = json.load(file)
+
+            if len(orders) == 0:
+                print("-----------------------------")
+                print("No Order Found")
+                print("-----------------------------")
+                return
+
+            for order in orders:
+                print("\n==================================================")
+                print("                 ORDER DETAILS")
+                print("==================================================")
+
+                print("Order ID :", order["order_id"])
+                print("Table ID :", order["table_id"])
+                print("Status :", order["status"])
+                print("Order Time :", order["order_time"])
+
+                print("--------------------------------------------------")
+                print("Item ID     Name                 Qty     Price")
+                print("--------------------------------------------------")
+
+                for item in order["items"]:
+
+                    print(
+                        item["item_id"],
+                        "       ",
+                        item["name"],
+                        "       ",
+                        item["quantity"],
+                        "       ₹",
+                        item["price"]
+                    )
+
+                print("--------------------------------------------------")
+
+                if "payment_status" in order:
+                    print("Payment Status :", order["payment_status"])
+
+                if "payment_method" in order:
+                    print("Payment Method :", order["payment_method"])
+
+                if "total_amount" in order:
+                    print("Total Amount : ₹", order["total_amount"])
+
+                print("==================================================")
 
         except Exception as f:
             Error_log(str(f))

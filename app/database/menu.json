@@ -1,802 +1,492 @@
 [
     {
-        "id": "1",
-        "name": "Paneer Butter Masala",
-        "category": "Main Course",
-        "price": 249,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "2",
-        "name": "Butter Chicken",
-        "category": "Main Course",
-        "price": 299,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "3",
-        "name": "Dal Makhani",
-        "category": "Main Course",
-        "price": 199,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "4",
-        "name": "Shahi Paneer",
-        "category": "Main Course",
-        "price": 239,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "5",
-        "name": "Kadai Paneer",
-        "category": "Main Course",
-        "price": 229,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "6",
-        "name": "Chicken Tikka Masala",
-        "category": "Main Course",
-        "price": 319,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "7",
-        "name": "Palak Paneer",
-        "category": "Main Course",
-        "price": 219,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "8",
-        "name": "Matar Paneer",
-        "category": "Main Course",
-        "price": 209,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "9",
-        "name": "Chole Masala",
-        "category": "Main Course",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "10",
-        "name": "Rajma Masala",
-        "category": "Main Course",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "11",
-        "name": "Veg Biryani",
-        "category": "Biryani",
-        "price": 199,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "12",
-        "name": "Chicken Biryani",
-        "category": "Biryani",
-        "price": 269,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "13",
-        "name": "Mutton Biryani",
-        "category": "Biryani",
-        "price": 329,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 1,
+        "name": "Potato",
+        "category": "Vegetables",
+        "quantity": 50,
+        "price": 40
     },
     {
-        "id": "14",
-        "name": "Egg Biryani",
-        "category": "Biryani",
-        "price": 219,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 2,
+        "name": "Tomato",
+        "category": "Vegetables",
+        "quantity": 40,
+        "price": 50
     },
     {
-        "id": "15",
-        "name": "Hyderabadi Chicken Biryani",
-        "category": "Biryani",
-        "price": 289,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 3,
+        "name": "Onion",
+        "category": "Vegetables",
+        "quantity": 45,
+        "price": 45
     },
     {
-        "id": "16",
-        "name": "Veg Pulao",
-        "category": "Rice",
-        "price": 159,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 4,
+        "name": "Carrot",
+        "category": "Vegetables",
+        "quantity": 30,
+        "price": 60
     },
     {
-        "id": "17",
-        "name": "Jeera Rice",
-        "category": "Rice",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 5,
+        "name": "Capsicum",
+        "category": "Vegetables",
+        "quantity": 25,
+        "price": 80
     },
     {
-        "id": "18",
-        "name": "Steamed Rice",
-        "category": "Rice",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 6,
+        "name": "Cabbage",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 40
     },
     {
-        "id": "19",
-        "name": "Egg Fried Rice",
-        "category": "Rice",
-        "price": 189,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 7,
+        "name": "Cauliflower",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 50
     },
     {
-        "id": "20",
-        "name": "Chicken Fried Rice",
-        "category": "Rice",
-        "price": 219,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 8,
+        "name": "Spinach",
+        "category": "Vegetables",
+        "quantity": 15,
+        "price": 30
     },
     {
-        "id": "21",
-        "name": "Plain Naan",
-        "category": "Indian Breads",
-        "price": 49,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 9,
+        "name": "Green Peas",
+        "category": "Vegetables",
+        "quantity": 20,
+        "price": 100
     },
     {
-        "id": "22",
-        "name": "Butter Naan",
-        "category": "Indian Breads",
-        "price": 59,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 10,
+        "name": "Garlic",
+        "category": "Vegetables",
+        "quantity": 15,
+        "price": 120
     },
     {
-        "id": "23",
-        "name": "Garlic Naan",
-        "category": "Indian Breads",
-        "price": 69,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 11,
+        "name": "Milk",
+        "category": "Dairy",
+        "quantity": 30,
+        "price": 60
     },
     {
-        "id": "24",
-        "name": "Tandoori Roti",
-        "category": "Indian Breads",
-        "price": 35,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 12,
+        "name": "Butter",
+        "category": "Dairy",
+        "quantity": 15,
+        "price": 550
     },
     {
-        "id": "25",
-        "name": "Butter Roti",
-        "category": "Indian Breads",
-        "price": 45,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 13,
+        "name": "Cheese",
+        "category": "Dairy",
+        "quantity": 20,
+        "price": 450
     },
     {
-        "id": "26",
-        "name": "Lachha Paratha",
-        "category": "Indian Breads",
-        "price": 69,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 14,
+        "name": "Paneer",
+        "category": "Dairy",
+        "quantity": 25,
+        "price": 350
     },
     {
-        "id": "27",
-        "name": "Aloo Paratha",
-        "category": "Indian Breads",
-        "price": 89,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 15,
+        "name": "Curd",
+        "category": "Dairy",
+        "quantity": 20,
+        "price": 80
     },
     {
-        "id": "28",
-        "name": "Paneer Tikka",
-        "category": "Starters",
-        "price": 229,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 16,
+        "name": "Rice",
+        "category": "Grains",
+        "quantity": 50,
+        "price": 70
     },
     {
-        "id": "29",
-        "name": "Hara Bhara Kabab",
-        "category": "Starters",
-        "price": 189,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 17,
+        "name": "Wheat Flour",
+        "category": "Grains",
+        "quantity": 50,
+        "price": 50
     },
     {
-        "id": "30",
-        "name": "Veg Manchurian",
-        "category": "Starters",
-        "price": 179,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 18,
+        "name": "Maida",
+        "category": "Grains",
+        "quantity": 40,
+        "price": 45
     },
     {
-        "id": "31",
-        "name": "Chilli Paneer",
-        "category": "Starters",
-        "price": 209,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 19,
+        "name": "Corn Flour",
+        "category": "Grains",
+        "quantity": 20,
+        "price": 80
     },
     {
-        "id": "32",
-        "name": "Crispy Corn",
-        "category": "Starters",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 20,
+        "name": "Oats",
+        "category": "Grains",
+        "quantity": 15,
+        "price": 150
     },
     {
-        "id": "33",
-        "name": "Chicken Tikka",
-        "category": "Starters",
-        "price": 249,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 21,
+        "name": "Salt",
+        "category": "Spices",
+        "quantity": 30,
+        "price": 25
     },
     {
-        "id": "34",
-        "name": "Chicken Seekh Kebab",
-        "category": "Starters",
-        "price": 269,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 22,
+        "name": "Black Pepper",
+        "category": "Spices",
+        "quantity": 10,
+        "price": 500
     },
     {
-        "id": "35",
-        "name": "Chicken 65",
-        "category": "Starters",
-        "price": 239,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 23,
+        "name": "Turmeric Powder",
+        "category": "Spices",
+        "quantity": 15,
+        "price": 200
     },
     {
-        "id": "36",
-        "name": "Chilli Chicken",
-        "category": "Starters",
-        "price": 249,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 24,
+        "name": "Red Chilli Powder",
+        "category": "Spices",
+        "quantity": 15,
+        "price": 220
     },
     {
-        "id": "37",
-        "name": "Chicken Lollipop",
-        "category": "Starters",
-        "price": 279,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 25,
+        "name": "Garam Masala",
+        "category": "Spices",
+        "quantity": 10,
+        "price": 300
     },
     {
-        "id": "38",
-        "name": "French Fries",
-        "category": "Snacks",
-        "price": 119,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 26,
+        "name": "Chicken",
+        "category": "Meat",
+        "quantity": 30,
+        "price": 280
     },
     {
-        "id": "39",
-        "name": "Peri Peri Fries",
-        "category": "Snacks",
-        "price": 139,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 27,
+        "name": "Mutton",
+        "category": "Meat",
+        "quantity": 20,
+        "price": 700
     },
     {
-        "id": "40",
-        "name": "Veg Sandwich",
-        "category": "Snacks",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 28,
+        "name": "Fish",
+        "category": "Meat",
+        "quantity": 20,
+        "price": 450
     },
     {
-        "id": "41",
-        "name": "Cheese Sandwich",
-        "category": "Snacks",
-        "price": 159,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 29,
+        "name": "Cooking Oil",
+        "category": "Oil",
+        "quantity": 30,
+        "price": 150
     },
     {
-        "id": "42",
-        "name": "Grilled Chicken Sandwich",
-        "category": "Snacks",
-        "price": 219,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 30,
+        "name": "Olive Oil",
+        "category": "Oil",
+        "quantity": 10,
+        "price": 650
     },
     {
-        "id": "43",
-        "name": "Veg Burger",
-        "category": "Burgers",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 31,
+        "name": "Tomato Sauce",
+        "category": "Sauces",
+        "quantity": 20,
+        "price": 120
     },
     {
-        "id": "44",
-        "name": "Cheese Burger",
-        "category": "Burgers",
-        "price": 179,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 32,
+        "name": "Chilli Sauce",
+        "category": "Sauces",
+        "quantity": 15,
+        "price": 130
     },
     {
-        "id": "45",
-        "name": "Chicken Burger",
-        "category": "Burgers",
-        "price": 199,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 33,
+        "name": "Soy Sauce",
+        "category": "Sauces",
+        "quantity": 15,
+        "price": 140
     },
     {
-        "id": "46",
-        "name": "Double Chicken Burger",
-        "category": "Burgers",
-        "price": 269,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 34,
+        "name": "Mayonnaise",
+        "category": "Sauces",
+        "quantity": 20,
+        "price": 180
     },
     {
-        "id": "47",
-        "name": "Margherita Pizza",
-        "category": "Pizza",
-        "price": 249,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 35,
+        "name": "Bread",
+        "category": "Bakery",
+        "quantity": 30,
+        "price": 45
     },
     {
-        "id": "48",
-        "name": "Farmhouse Pizza",
-        "category": "Pizza",
-        "price": 299,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 36,
+        "name": "Burger Bun",
+        "category": "Bakery",
+        "quantity": 40,
+        "price": 50
     },
     {
-        "id": "49",
-        "name": "Paneer Tikka Pizza",
-        "category": "Pizza",
-        "price": 319,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 37,
+        "name": "Pizza Base",
+        "category": "Bakery",
+        "quantity": 30,
+        "price": 60
     },
     {
-        "id": "50",
-        "name": "Chicken Tikka Pizza",
-        "category": "Pizza",
-        "price": 349,
-        "isVeg": false,
-        "isAvailable": true
+        "id": 38,
+        "name": "Garlic Bread",
+        "category": "Bakery",
+        "quantity": 20,
+        "price": 100
     },
     {
-        "id": "51",
-        "name": "Pepperoni Pizza",
-        "category": "Pizza",
-        "price": 369,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "52",
-        "name": "Cheese Burst Pizza",
-        "category": "Pizza",
-        "price": 329,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "53",
-        "name": "Veg Hakka Noodles",
-        "category": "Chinese",
-        "price": 179,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "54",
-        "name": "Chicken Hakka Noodles",
-        "category": "Chinese",
-        "price": 219,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "55",
-        "name": "Schezwan Noodles",
-        "category": "Chinese",
-        "price": 199,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "56",
-        "name": "Veg Chowmein",
-        "category": "Chinese",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "57",
-        "name": "Chicken Chowmein",
-        "category": "Chinese",
-        "price": 209,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "58",
-        "name": "Veg Spring Roll",
-        "category": "Chinese",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "59",
-        "name": "Chicken Spring Roll",
-        "category": "Chinese",
-        "price": 189,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "60",
-        "name": "Veg Momos",
-        "category": "Momos",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "61",
-        "name": "Paneer Momos",
-        "category": "Momos",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "62",
-        "name": "Chicken Momos",
-        "category": "Momos",
-        "price": 169,
-        "isVeg": false,
-        "isAvailable": true
-    },
-    {
-        "id": "63",
-        "name": "Tandoori Momos",
-        "category": "Momos",
-        "price": 179,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "64",
-        "name": "Masala Dosa",
-        "category": "South Indian",
-        "price": 139,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "65",
-        "name": "Plain Dosa",
-        "category": "South Indian",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "66",
-        "name": "Paneer Dosa",
-        "category": "South Indian",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "67",
-        "name": "Idli Sambar",
-        "category": "South Indian",
-        "price": 99,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "68",
-        "name": "Medu Vada",
-        "category": "South Indian",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "69",
-        "name": "Uttapam",
-        "category": "South Indian",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "70",
-        "name": "Pav Bhaji",
-        "category": "Indian Snacks",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "71",
-        "name": "Vada Pav",
-        "category": "Indian Snacks",
-        "price": 69,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "72",
-        "name": "Samosa",
-        "category": "Indian Snacks",
-        "price": 49,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "73",
-        "name": "Paneer Pakora",
-        "category": "Indian Snacks",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "74",
-        "name": "Onion Pakora",
-        "category": "Indian Snacks",
-        "price": 99,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "75",
-        "name": "Aloo Tikki",
-        "category": "Indian Snacks",
-        "price": 89,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "76",
-        "name": "Gulab Jamun",
-        "category": "Desserts",
-        "price": 89,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "77",
-        "name": "Rasmalai",
-        "category": "Desserts",
-        "price": 119,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "78",
-        "name": "Gajar Ka Halwa",
-        "category": "Desserts",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "79",
-        "name": "Chocolate Brownie",
-        "category": "Desserts",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "80",
-        "name": "Vanilla Ice Cream",
-        "category": "Desserts",
-        "price": 99,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "81",
-        "name": "Chocolate Ice Cream",
-        "category": "Desserts",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "82",
-        "name": "Mango Ice Cream",
-        "category": "Desserts",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "83",
-        "name": "Cold Coffee",
+        "id": 39,
+        "name": "Tea",
         "category": "Beverages",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
+        "quantity": 20,
+        "price": 250
     },
     {
-        "id": "84",
-        "name": "Cappuccino",
+        "id": 40,
+        "name": "Coffee",
         "category": "Beverages",
-        "price": 139,
-        "isVeg": true,
-        "isAvailable": true
+        "quantity": 20,
+        "price": 400
     },
     {
-        "id": "85",
-        "name": "Masala Tea",
+        "id": 41,
+        "name": "Green Tea",
         "category": "Beverages",
-        "price": 59,
-        "isVeg": true,
-        "isAvailable": true
+        "quantity": 15,
+        "price": 300
     },
     {
-        "id": "86",
-        "name": "Lemon Tea",
+        "id": 42,
+        "name": "Cold Drink",
         "category": "Beverages",
-        "price": 69,
-        "isVeg": true,
-        "isAvailable": true
+        "quantity": 50,
+        "price": 40
     },
     {
-        "id": "87",
-        "name": "Fresh Lime Soda",
-        "category": "Beverages",
-        "price": 79,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "88",
-        "name": "Mango Lassi",
-        "category": "Beverages",
-        "price": 109,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "89",
-        "name": "Sweet Lassi",
-        "category": "Beverages",
-        "price": 99,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "90",
-        "name": "Salted Lassi",
-        "category": "Beverages",
-        "price": 89,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "91",
-        "name": "Mango Shake",
-        "category": "Shakes",
-        "price": 139,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "92",
-        "name": "Banana Shake",
-        "category": "Shakes",
-        "price": 119,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "93",
-        "name": "Chocolate Shake",
-        "category": "Shakes",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "94",
-        "name": "Strawberry Shake",
-        "category": "Shakes",
-        "price": 149,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "95",
-        "name": "Oreo Shake",
-        "category": "Shakes",
-        "price": 169,
-        "isVeg": true,
-        "isAvailable": true
-    },
-    {
-        "id": "96",
+        "id": 43,
         "name": "Mineral Water",
         "category": "Beverages",
-        "price": 40,
-        "isVeg": true,
-        "isAvailable": true
+        "quantity": 60,
+        "price": 20
     },
     {
-        "id": "97",
-        "name": "Coca Cola",
-        "category": "Beverages",
-        "price": 60,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 44,
+        "name": "Sugar",
+        "category": "Baking Supplies",
+        "quantity": 30,
+        "price": 50
     },
     {
-        "id": "98",
-        "name": "Sprite",
-        "category": "Beverages",
-        "price": 60,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 45,
+        "name": "Baking Powder",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 180
     },
     {
-        "id": "99",
-        "name": "Fresh Orange Juice",
-        "category": "Beverages",
-        "price": 129,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 46,
+        "name": "Vanilla Essence",
+        "category": "Baking Supplies",
+        "quantity": 8,
+        "price": 250
     },
     {
-        "id": "100",
-        "name": "Watermelon Juice",
-        "category": "Beverages",
-        "price": 119,
-        "isVeg": true,
-        "isAvailable": true
+        "id": 47,
+        "name": "Cocoa Powder",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 350
+    },
+    {
+        "id": 48,
+        "name": "Honey",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 300
+    },
+    {
+        "id": 49,
+        "name": "Chocolate",
+        "category": "Baking Supplies",
+        "quantity": 15,
+        "price": 250
+    },
+    {
+        "id": 50,
+        "name": "Chocolate Syrup",
+        "category": "Baking Supplies",
+        "quantity": 10,
+        "price": 300
+    },
+    {
+        "id": 51,
+        "name": "Coriander",
+        "category": "Vegetables",
+        "quantity": 10,
+        "price": 80
+    },
+    {
+        "id": 52,
+        "name": "Mint",
+        "category": "Vegetables",
+        "quantity": 8,
+        "price": 100
+    },
+    {
+        "id": 53,
+        "name": "Lemon",
+        "category": "Fruits",
+        "quantity": 20,
+        "price": 80
+    },
+    {
+        "id": 54,
+        "name": "Apple",
+        "category": "Fruits",
+        "quantity": 15,
+        "price": 180
+    },
+    {
+        "id": 55,
+        "name": "Banana",
+        "category": "Fruits",
+        "quantity": 20,
+        "price": 60
+    },
+    {
+        "id": 56,
+        "name": "Pineapple",
+        "category": "Fruits",
+        "quantity": 10,
+        "price": 100
+    },
+    {
+        "id": 57,
+        "name": "Coconut",
+        "category": "Fruits",
+        "quantity": 15,
+        "price": 70
+    },
+    {
+        "id": 58,
+        "name": "Cumin",
+        "category": "Spices",
+        "quantity": 5,
+        "price": 400
+    },
+    {
+        "id": 59,
+        "name": "Coriander Powder",
+        "category": "Spices",
+        "quantity": 8,
+        "price": 180
+    },
+    {
+        "id": 60,
+        "name": "Cardamom",
+        "category": "Spices",
+        "quantity": 3,
+        "price": 1200
+    },
+    {
+        "id": 61,
+        "name": "Cinnamon",
+        "category": "Spices",
+        "quantity": 5,
+        "price": 500
+    },
+    {
+        "id": 62,
+        "name": "Cloves",
+        "category": "Spices",
+        "quantity": 3,
+        "price": 700
+    },
+    {
+        "id": 63,
+        "name": "Egg",
+        "category": "Eggs",
+        "quantity": 200,
+        "price": 8
+    },
+    {
+        "id": 64,
+        "name": "Cream",
+        "category": "Dairy",
+        "quantity": 10,
+        "price": 250
+    },
+    {
+        "id": 65,
+        "name": "Ghee",
+        "category": "Dairy",
+        "quantity": 15,
+        "price": 650
+    },
+    {
+        "id": 66,
+        "name": "Coconut Milk",
+        "category": "Dairy",
+        "quantity": 10,
+        "price": 180
+    },
+    {
+        "id": 67,
+        "name": "Ice Cream",
+        "category": "Frozen",
+        "quantity": 20,
+        "price": 300
+    },
+    {
+        "id": 68,
+        "name": "Frozen Peas",
+        "category": "Frozen",
+        "quantity": 15,
+        "price": 180
+    },
+    {
+        "id": 69,
+        "name": "French Fries",
+        "category": "Frozen",
+        "quantity": 25,
+        "price": 160
+    },
+    {
+        "id": 70,
+        "name": "Chicken Nuggets",
+        "category": "Frozen",
+        "quantity": 20,
+        "price": 280
     }
 ]

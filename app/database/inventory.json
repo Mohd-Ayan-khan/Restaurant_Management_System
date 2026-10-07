@@ -488,13 +488,5 @@
         "category": "Frozen",
         "quantity": 20,
         "price": 280
-    },
-    {
-        "id": "71",
-        "name": "proxy",
-        "category": "sdf",
-        "quantity": "8",
-        "price": 2000,
-        "Time": "30-09-2026 06:49:53 PM"
     }
 ]

@@ -122,72 +122,73 @@ class inventory():
             print("===================")
         
     def delete_item(self):
-            try:
-                with open("app/database/inventory.json", "r") as file:
-                    items = json.load(file)
-    
-                if len(items) == 0:
-    
-                    print("-----------------------------")
-                    print("No item available")
-                    print("-----------------------------")
-                    return
-    
-                item_id = input("Enter item id to delete : ")
-                item_id = validator_functions().id_validate(item_id)
-                
-                
-                for item in items:
-    
-                    if item["id"] == item_id:
-                        items.remove(item)
-                        break
-    
-                for i in range(len(items)):
-                    items[i]["id"] = i + 1
-    
-                with open("app/database/menu.json", "w") as file:
-                    json.dump(items, file, indent=4)
-    
+        try:
+            with open("app/database/inventory.json", "r") as file:
+                items = json.load(file)
+
+            if len(items) == 0:
                 print("-----------------------------")
-                print("Item deleted successfully")
+                print("No item available")
                 print("-----------------------------")
-            
-            except Exception as f:
-                Error_log(str(f))
-                print("-------------------")
-                print("Error",f)
-                print("-------------------")
-    
+                return
+
+            item_id = input("Enter item id to delete : ").strip()
+            item_id = validator_functions().id_validate(item_id)
+
+            found = False
+
+            for item in items:
+                if str(item["id"]) == str(item_id):
+                    items.remove(item)
+                    found = True
+                    break
+
+            if found == False:
+                print("-----------------------------")
+                print("Item ID not found")
+                print("-----------------------------")
+                return
+
+            for i in range(len(items)):
+                items[i]["id"] = str(i + 1)
+
+            with open("app/database/inventory.json", "w") as file:
+                json.dump(items, file, indent=4)
+
+            print("-----------------------------")
+            print("Item deleted successfully")
+            print("-----------------------------")
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-----------------------------")
+            print("Error", f)
+            print("-----------------------------")  
+             
     def view_inventory(self):
         try:
             with open("app/database/inventory.json", "r") as file:
                 inventory = json.load(file)
 
             print("\n====================================================================")
-            print("                         INVENTORY")
+            print("                              INVENTORY")
             print("====================================================================")
-            print("ID       Name              Category          Quantity       Unit")
+            print("ID       Name                    Category             Quantity")
             print("--------------------------------------------------------------------")
 
             for item in inventory:
                 print(
-                    item["id"],
-                    "      ",
-                    item["name"],
-                    "          ",
-                    item["category"],
-                    "        ",
-                    item["quantity"],
-                    "           ",
-                    item["unit"]
+                    f"{item['id']:<9}"
+                    f"{item['name']:<24}"
+                    f"{item['category']:<21}"
+                    f"{item['quantity']:<10}"
                 )
-            print("====================================================================")
 
+            print("====================================================================")
         except Exception as f:
             Error_log(str(f))
             print("-----------------------------")
-            print("Something went wrong")
+            print(f)
             print("-----------------------------")
         
         

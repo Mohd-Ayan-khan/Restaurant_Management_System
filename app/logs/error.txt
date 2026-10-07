@@ -502,3 +502,57 @@ PATH  : D:\Restaurant_Management_System
 ERROR : list indices must be integers or slices, not str
 ==================================================
 
+==================================================
+TIME  : 07-10-2026 07:46:57 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'unit'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 07:48:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'unit'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:07:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:17:48 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'full_name' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:17:48 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:19:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:26:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:27:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:59:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
