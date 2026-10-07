@@ -3,6 +3,7 @@ from app.validations.validation_log import validation_log
 from app.domain.Admin.menu_management import menu_management
 from app.domain.Admin.staff_management import staff_management
 from app.domain.Admin.inventory_management import inventory
+from app.domain.staff.table_management import Table
 
 class Admin(inventory):
     def menu_mangement_dashbord(self):
@@ -115,7 +116,9 @@ class Admin(inventory):
                 print("-----------------------------")
                 print("3. -- Delete Item --")
                 print("-----------------------------")
-                print("4. -- Exit --")
+                print("4. -- View Inventory --")
+                print("-----------------------------")
+                print("5. -- Exit --")
                 print("-----------------------------")
                 
                 choice = input("Enter your choice :")
@@ -130,6 +133,9 @@ class Admin(inventory):
                     inventory().delete_item()
                 
                 elif choice == "4":
+                    inventory().view_inventory()
+                
+                elif choice == "5":
                     break
                 
                 else:
@@ -176,7 +182,7 @@ class Admin(inventory):
                         self.inventory_management()
                     
                     elif choice == "4":
-                        pass
+                        Table().view_booked_table()
                     
                     elif choice == "5":
                         pass

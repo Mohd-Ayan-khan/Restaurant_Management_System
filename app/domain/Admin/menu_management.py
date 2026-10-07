@@ -1,6 +1,5 @@
 import json
 from app.validations.validation_log import Error_log
-from app.validations.menu_validation import menu_validate
 from app.validations.validator import validator_functions
 class menu_management:
     def add_item(self):
@@ -61,7 +60,7 @@ class menu_management:
             with open("app/database/menu.json", "r") as file:
                 menu = json.load(file)
 
-            id = int(input("Enter update item id : "))
+            id = input("Enter update item id : ")
             id = validator_functions().id_validate(id)
             
             for item in menu:
@@ -147,9 +146,8 @@ class menu_management:
                 print("-----------------------------")
                 return
 
-            item_id = int(input("Enter item id to delete : "))
+            item_id = input("Enter item id to delete : ")
             item_id = validator_functions().id_validate(item_id)
-            item_id = menu_validate().delete_item_validate(item_id,menu)
 
             for item in menu:
 

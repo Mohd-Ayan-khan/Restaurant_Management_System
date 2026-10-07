@@ -6,6 +6,7 @@ class validator_functions:
     def id_validate(self,id):
         try:
             while True:
+                id = str(id)
 
                 if id == "":
                     validation_log("empty id")
@@ -27,9 +28,19 @@ class validator_functions:
                     print("ID must contain only numbers")
                     print("-----------------------------")
                     id = input("Enter ID again : ")
-
+                
                 else:
-                    return id
+                    id = int(id)
+                    
+                    if id <= 0 :
+                        validation_log("id must be grator than 0")
+                        print("------------------------")
+                        print("ID must be gratot than 0")
+                        print("------------------------")
+                        id = int(input("Enter Id again :"))
+                    
+                    else:
+                        return str(id)
         
         except Exception as f:
             Error_log(str(f))
@@ -138,6 +149,7 @@ class validator_functions:
     def price_validate(self, price):
 
         try:
+            price = str(price)
             while True:
 
                 if price == "":
@@ -147,12 +159,6 @@ class validator_functions:
                     print("-----------------------------")
                     price = input("Enter price : ")
 
-                elif price.isspace():
-                    validation_log("Price cannot contain only spaces")
-                    print("--------------------------------")
-                    print("Price cannot contain only spaces")
-                    print("--------------------------------")
-                    price = input("Enter price : ")
 
                 elif " " in price:
                     validation_log("Price cannot contain spaces")
@@ -245,3 +251,82 @@ class validator_functions:
             print("-------------------")
             print(f)
             print("-------------------")
+    
+    def phone_validate(self,phone):
+        try:
+            while True:
+
+                if phone == "":
+                    validation_log("Phone number cannot be empty")
+                    print("-----------------------------")
+                    print("Phone number cannot be empty")
+                    print("-----------------------------")
+                    phone = input("Enter phone number again : ")
+
+                elif " " in phone:
+                    validation_log("Phone number cannot contain spaces")
+                    print("-----------------------------")
+                    print("Phone number cannot contain spaces")
+                    print("-----------------------------")
+                    phone = input("Enter phone number again : ")
+
+                elif not phone.isdigit():
+                    validation_log("Phone number must contain only numbers")
+                    print("--------------------------------------------")
+                    print("Phone number must contain only numbers")
+                    print("--------------------------------------------")
+                    phone = input("Enter phone number again : ")
+
+                elif len(phone) != 10:
+                    validation_log("Phone number must be 10 digits")
+                    print("--------------------------------")
+                    print("Phone number must be 10 digits")
+                    print("--------------------------------")
+                    phone = input("Enter phone number again : ")
+
+                else:
+                    return phone
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-------------------")
+            print("Something went wrong")
+            print("-------------------")
+    
+    def duration_validate(self,duration):
+        
+        try:
+            while True:
+
+                if duration == "":
+                    print("-----------------------------")
+                    print("Duration cannot be empty")
+                    print("-----------------------------")
+                    duration = input("Enter duration again : ")
+
+                elif " " in duration:
+                    print("-----------------------------")
+                    print("Duration cannot contain spaces")
+                    print("-----------------------------")
+                    duration = input("Enter duration again : ")
+
+                elif not duration.isdigit():
+                    print("-----------------------------")
+                    print("Duration must contain only numbers")
+                    print("-----------------------------")
+                    duration = input("Enter duration again : ")
+
+                elif int(duration) <= 0:
+                    print("-----------------------------")
+                    print("Duration must be greater than 0")
+                    print("-----------------------------")
+                    duration = input("Enter duration again : ")
+
+                else:
+                    return int(duration)
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-----------------------------")
+            print("Something went wrong")
+            print("-----------------------------")

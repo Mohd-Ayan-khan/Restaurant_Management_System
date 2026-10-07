@@ -1,4 +1,5 @@
 import json
+import maskpass
 from app.validations.sign_in_validation import sign_in_validate
 from app.domain.Admin.admin_dashboard import Admin
 from app.domain.staff.staff_dashboard import staff
@@ -9,7 +10,7 @@ def sign_in(check):
 
     try:
         gmail_id = input("Enter Your Gmail id : ")
-        password = input("Enter Your password : ")
+        password = maskpass.askpass("Enter Your password : ",mask='*')
 
         gmail_id, password = sign_in_validate(gmail_id, password)
 
@@ -25,9 +26,9 @@ def sign_in(check):
 
                     if user["Role"] == "admin":
                         found = True
-                        print("=================")
-                        print("Login successful")
-                        print("=================")
+                        print("======================")
+                        print("Admin Login successful")
+                        print("======================")
                         Admin().admin_dashboard()
                         break
 
@@ -42,9 +43,9 @@ def sign_in(check):
                     if user["Role"] != "admin":
                         found = True
 
-                        print("=======================")
+                        print("\n=======================")
                         print("Staff login successful")
-                        print("=======================")
+                        print("=======================\n")
                         staff().staff_dashboard()
                         break
 

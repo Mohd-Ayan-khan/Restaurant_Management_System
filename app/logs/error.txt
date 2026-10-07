@@ -382,3 +382,123 @@ PATH  : D:\Restaurant_Management_System
 ERROR : invalid literal for int() with base 10: 'aa'
 ==================================================
 
+==================================================
+TIME  : 03-10-2026 04:15:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:07 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'validator_functions' object has no attribute 'update_validate'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:56 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isspace'
+==================================================
+
+==================================================
+TIME  : 04-10-2026 05:09:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 04-10-2026 05:27:28 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 06-10-2026 12:00:38 AM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'app/database/booking.json'
+==================================================
+
+==================================================
+TIME  : 06-10-2026 03:31:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : staff.Table_dashboard() takes 0 positional arguments but 1 was given
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:04:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:07:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:09:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:21:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:37:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 08:54:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 08:58:10 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 09:03:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 09:06:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:08:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:11:29 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : list indices must be integers or slices, not str
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:17:14 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : list indices must be integers or slices, not str
+==================================================
+

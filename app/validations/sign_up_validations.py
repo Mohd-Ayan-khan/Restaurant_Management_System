@@ -117,17 +117,28 @@ def staff_sign_up_validate(self):
                 print("*************************")
                 print("Email must contain (.)")
                 print("*************************")
-
                 self.Email = input("Enter your Email again : ")
 
             elif self.Email.index("@") > self.Email.index("."):
                 validation_log("(@) must be before (.)")
-
                 print("************************")
                 print("(@) must be before (.)")
                 print("************************")
-
                 self.Email = input("Enter your Email again : ")
+            
+            elif not self.Email.endswith("@gmail.com"):
+                validation_log("gmail end (@gmail.com) consider")
+                print("-----------------------------")
+                print("Gmail must end with @gmail.com")
+                print("-----------------------------")
+                self.Email = input("Enter Email again : ")
+
+            elif self.Email == "@gmail.com":
+                validation_log("not only @gmail.com")
+                print("-----------------------------")
+                print("Enter something before @gmail.com")
+                print("-----------------------------")
+                self.Email = input("Enter Gmail again : ")
 
             else:
                 break

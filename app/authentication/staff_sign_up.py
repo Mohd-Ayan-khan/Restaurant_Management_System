@@ -25,7 +25,7 @@ class staff:
             self.user_id =  str(len(user) + 1)
             self.user_name = input("Enter your username : ")
             self.full_name = input("Enter your Full Name : ").upper()
-            self.password = maskpass.askpass("Enter your password : ",mask="*")
+            self.password = maskpass.askpass("Enter your password : ",mask="!")
             self.Email = input("Enter your Email id : ")
             self.phone_number = input("Enter your phone number : ")
 

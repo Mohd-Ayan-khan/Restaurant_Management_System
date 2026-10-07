@@ -37,6 +37,7 @@ class staff_management(staff):
                         print("4. Update Email")
                         print("5. Update Contact")
                         print("6. Update Role")
+                        print("7. Exit")
                         print("--------------------------------")
 
                         choice = int(input("What do you want to update : "))
@@ -70,6 +71,9 @@ class staff_management(staff):
                             value = int(input("Enter new role : "))
                             value = obj.staff_update_validate(choice, value)
                             staff["Role"] = value
+                        
+                        elif choice == 7:
+                            break
 
                         else:
                             print("-----------------------------")

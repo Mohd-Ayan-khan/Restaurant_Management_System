@@ -26,34 +26,27 @@ def sign_in_validate(id, password):
 
             elif " " in id:
                 validation_log("Email cannot contain spaces")
-
                 print("*******************************")
                 print("Email cannot contain spaces")
                 print("*******************************")
-
                 id = input("Enter your Email again : ")
 
             elif "@" not in id:
                 validation_log("Email must contain (@)")
-
                 print("*************************")
                 print("Email must contain (@)")
                 print("*************************")
-
                 id = input("Enter your Email again : ")
 
             elif "." not in id:
                 validation_log("Email must contain (.)")
-
                 print("*************************")
                 print("Email must contain (.)")
                 print("*************************")
-
                 id = input("Enter your Email again : ")
 
             elif id.index("@") > id.index("."):
                 validation_log("(@) must be before (.)")
-                
                 print("************************")
                 print("(@) must be before (.)")
                 print("************************")
@@ -61,11 +54,24 @@ def sign_in_validate(id, password):
             
             elif "@gmail.com" not in id:
                 validation_log("(@gmail.com) not in gmail")
-                
                 print("************************")
                 print("gmail must be have (@gmail.com)")
                 print("************************")
                 id = input("Enter your Email again : ")
+            
+            elif not id.endswith("@gmail.com"):
+                validation_log("gmail end (@gmail.com) consider")
+                print("-----------------------------")
+                print("Gmail must end with @gmail.com")
+                print("-----------------------------")
+                id = input("Enter Gmail again : ")
+
+            elif id == "@gmail.com":
+                validation_log("not only @gmail.com")
+                print("-----------------------------")
+                print("Enter something before @gmail.com")
+                print("-----------------------------")
+                id = input("Enter Gmail again : ")
             
 
             else:

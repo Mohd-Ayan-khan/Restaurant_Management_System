@@ -1,6 +1,5 @@
 import json
 import datetime
-from app.validations.menu_validation import menu_validate
 from app.validations.validation_log import Error_log
 from app.validations.validator import validator_functions
 
@@ -134,9 +133,10 @@ class inventory():
                     print("-----------------------------")
                     return
     
-                item_id = int(input("Enter item id to delete : "))
-                item_id = menu_validate().delete_item_validate(item_id,items)
-    
+                item_id = input("Enter item id to delete : ")
+                item_id = validator_functions().id_validate(item_id)
+                
+                
                 for item in items:
     
                     if item["id"] == item_id:
@@ -159,4 +159,35 @@ class inventory():
                 print("Error",f)
                 print("-------------------")
     
-    
+    def view_inventory(self):
+        try:
+            with open("app/database/inventory.json", "r") as file:
+                inventory = json.load(file)
+
+            print("\n====================================================================")
+            print("                         INVENTORY")
+            print("====================================================================")
+            print("ID       Name              Category          Quantity       Unit")
+            print("--------------------------------------------------------------------")
+
+            for item in inventory:
+                print(
+                    item["id"],
+                    "      ",
+                    item["name"],
+                    "          ",
+                    item["category"],
+                    "        ",
+                    item["quantity"],
+                    "           ",
+                    item["unit"]
+                )
+            print("====================================================================")
+
+        except Exception as f:
+            Error_log(str(f))
+            print("-----------------------------")
+            print("Something went wrong")
+            print("-----------------------------")
+        
+        
