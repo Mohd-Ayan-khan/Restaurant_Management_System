@@ -47,6 +47,40 @@ def staff_sign_up_validate(self):
 
             else:
                 break
+        
+        
+        while True:
+
+            if self.full_name == "":
+                validation_log("Empty full name")
+                print("*****************************")
+                print("Full name cannot be empty")
+                print("*****************************")
+                self.full_name = input("Enter your Full Name again : ").upper()
+
+            elif not self.full_name.replace(" ", "").isalpha():
+                validation_log("Full name must contain only alphabets")
+                print("--------------------------------------")
+                print("Full name must contain only alphabets")
+                print("--------------------------------------")
+                self.full_name = input("Enter your Full Name again : ").upper()
+
+            elif len(self.full_name) < 3:
+                validation_log("Full name must be at least 3 characters")
+                print("--------------------------------------")
+                print("Full name must be at least 3 characters")
+                print("--------------------------------------")
+                self.full_name = input("Enter your Full Name again : ").upper()
+
+            elif len(self.full_name) > 50:
+                validation_log("Full name must be less than 50 characters")
+                print("--------------------------------------")
+                print("Full name must be less than 50 characters")
+                print("--------------------------------------")
+                self.full_name = input("Enter your Full Name again : ").upper()
+
+            else:
+                break
 
 
         while True:

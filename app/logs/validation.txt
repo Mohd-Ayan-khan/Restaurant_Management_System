@@ -880,3 +880,45 @@ PATH  : D:\Restaurant_Management_System
 ERROR : Invalid choice
 ==================================================
 
+==================================================
+TIME  : 07-10-2026 09:57:35 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@gmail.com) not in gmail
+==================================================
+
+==================================================
+TIME  : 07-10-2026 09:57:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : (@gmail.com) not in gmail
+==================================================
+
+==================================================
+TIME  : 07-10-2026 09:57:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Password must be at least 8 characters
+==================================================
+
+==================================================
+TIME  : 07-10-2026 10:34:57 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (.)
+==================================================
+
+==================================================
+TIME  : 07-10-2026 10:35:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Email must contain (@)
+==================================================
+
+==================================================
+TIME  : 07-10-2026 10:35:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : gmail end (@gmail.com) consider
+==================================================
+
+==================================================
+TIME  : 07-10-2026 10:35:14 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : not only @gmail.com
+==================================================
+

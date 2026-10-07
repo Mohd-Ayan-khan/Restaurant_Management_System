@@ -40,7 +40,7 @@ def sign_in(check):
 
                 elif check == "staff":
 
-                    if user["Role"] != "admin":
+                    if user["Role"] in ["Chef", "Manager", "Receptionist", "Waiter", "Cashier"]:
                         found = True
 
                         print("\n=======================")

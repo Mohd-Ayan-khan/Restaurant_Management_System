@@ -15,5 +15,14 @@
         "Email": "ayankhan@gmail.com",
         "Contact": "7878787878",
         "Role": "Manager"
+    },
+    {
+        "User Id": "3",
+        "Full Name": "ANAS",
+        "Username": "anas",
+        "Password": "anaskhan",
+        "Email": "anas@gmail.com",
+        "Contact": "7878787878",
+        "Role": "Receptionist"
     }
 ]

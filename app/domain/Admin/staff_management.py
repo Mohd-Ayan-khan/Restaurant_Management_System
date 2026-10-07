@@ -114,7 +114,7 @@ class staff_management(staff):
                 return
 
             user_id = input("Enter staff user id to delete : ")
-            user_id = validator_functions().id_validate(id)
+            user_id = validator_functions().id_validate(user_id)
 
             for user in users:
                 if user["User Id"] == user_id:
