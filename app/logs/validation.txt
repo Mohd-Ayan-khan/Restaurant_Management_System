@@ -922,3 +922,9 @@ PATH  : D:\Restaurant_Management_System
 ERROR : not only @gmail.com
 ==================================================
 
+==================================================
+TIME  : 07-10-2026 11:38:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid choice
+==================================================
+
