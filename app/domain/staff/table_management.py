@@ -268,8 +268,8 @@ class Table:
                         if already_selected == False:
 
                             print(
-                                "Table ID :", table["table_id"],
-                                "| Size :", table["table_size"],
+                                f"Table ID : {table["table_id"]:<3}",
+                                f"| Size : {table["table_size"]:<7}",
                                 "| Capacity :", table["capacity"]
                             )
 
