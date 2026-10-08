@@ -1,10 +1,12 @@
 from app.validations.validation_log import Error_log
 from app.authentication.sign_in import sign_in
+from app.domain.staff.time_count import update_table_status
 from app.validations.validation_log import validation_log
 
 def menu():
     
   try:
+      update_table_status()
       while True:
                 print("==========================")
                 print("--- Menu ---")

@@ -1,7 +1,6 @@
 import json
 import datetime
 import datetime
-from app.domain.staff.time_count import update_table_status
 from app.validations.validation_log import Error_log
 from app.validations.validator import validator_functions
 
@@ -127,7 +126,7 @@ class Table:
                  
     def book_table(self):
         try:
-            update_table_status()
+            
             obj = validator_functions()
 
             with open("app/database/table.json", "r") as file:
