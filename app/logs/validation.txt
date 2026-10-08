@@ -928,3 +928,9 @@ PATH  : D:\Restaurant_Management_System
 ERROR : invalid choice
 ==================================================
 
+==================================================
+TIME  : 08-10-2026 02:40:21 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Invalid choice
+==================================================
+
