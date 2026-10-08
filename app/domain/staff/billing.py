@@ -3,48 +3,57 @@ from app.validations.validation_log import Error_log
 
 
 def generate_bill():
+
     try:
+
         with open("app/database/order.json", "r") as file:
             orders = json.load(file)
 
         order_id = input("Enter Order ID : ").strip()
 
         for order in orders:
-            if order["order_id"] == order_id:
 
+            if order["order_id"] == order_id:
                 if order["status"] == "Cancelled":
-                    print("-----------------------------")
-                    print("Cancelled order cannot generate bill")
-                    print("-----------------------------")
+                    print("\n========================================")
+                    print("   Cancelled order cannot generate bill")
+                    print("========================================")
                     return
 
-                if order["status"] == "Completed":
-                    print("-----------------------------")
-                    print("Payment already completed")
-                    print("-----------------------------")
+                if order.get("payment_status") == "Paid":
+                    print("\n========================================")
+                    print("       Payment already completed")
+                    print("========================================")
                     return
 
                 total = 0
 
-                print("\n==================================================")
-                print("              RESTAURANT BILL")
-                print("==================================================")
-                print("Order ID :", order["order_id"])
-                print("Table ID :", order["table_id"])
-                print("Order Time :", order["order_time"])
-                print("--------------------------------------------------")
-                print("Item                  Qty    Price       Amount")
-                print("--------------------------------------------------")
+                print("\n======================================================")
+                print("                 RESTAURANT BILL")
+                print("======================================================")
+                print("Order ID    :", order["order_id"])
+                print("Table ID    :", order["table_id"])
+                print("Order Time  :", order["order_time"])
+                print("------------------------------------------------------")
+                print(f"{'Item':<25}{'Qty':>5}{'Price':>12}{'Amount':>15}")
+                print("------------------------------------------------------")
 
                 for item in order["items"]:
+
                     amount = item["price"] * item["quantity"]
+
                     total = total + amount
 
-                    print(item["name"],"x",item["quantity"],"₹",item["price"],"Amount : ₹",amount)
+                    print(
+                        f"{item['name']:<25}"
+                        f"{item['quantity']:>5}"
+                        f"{'₹' + format(item['price'], '.2f'):>12}"
+                        f"{'₹' + format(amount, '.2f'):>15}"
+                    )
 
-                print("--------------------------------------------------")
+                print("------------------------------------------------------")
 
-                print("Subtotal :", total)
+                print(f"{'Subtotal':<45}₹{total:.2f}")
 
                 discount = input("Enter Discount (%) : ")
 
@@ -59,27 +68,24 @@ def generate_bill():
                 gst_rate = 5
 
                 gst = taxable_amount * gst_rate / 100
-
                 final_total = taxable_amount + gst
+                final_total = round(final_total, 2)
 
-                print("Discount :", discount, "%")
-                print("Discount Amount : ₹", discount_amount)
+                print(f"{'Discount':<45}{discount:.2f}%")
+                print(f"{'Discount Amount':<45}₹{discount_amount:.2f}")
 
-                print("--------------------------------------------------")
+                print("------------------------------------------------------")
 
-                print("Taxable Amount : ₹", taxable_amount)
-                print("GST (5%) : ₹", gst)
+                print(f"{'Taxable Amount':<45}₹{taxable_amount:.2f}")
+                print(f"{'GST (5%)':<45}₹{gst:.2f}")
 
-                print("--------------------------------------------------")
+                print("------------------------------------------------------")
 
-                print("GRAND TOTAL : ₹", final_total)
+                print(f"{'GRAND TOTAL':<45}₹{final_total:.2f}")
 
-                print("==================================================")
-
-                # PAYMENT
-
-                print("              PAYMENT")
-                print("==================================================")
+                print("======================================================")
+                print("                     PAYMENT")
+                print("======================================================")
 
                 print("1. Cash")
                 print("2. UPI")
@@ -97,12 +103,13 @@ def generate_bill():
                     payment_method = "Card"
 
                 else:
-                    print("-----------------------------")
-                    print("Invalid Payment Method")
-                    print("-----------------------------")
+
+                    print("\n========================================")
+                    print("       Invalid Payment Method")
+                    print("========================================")
                     return
 
-                print("Amount to Pay : ₹", final_total)
+                print(f"\nAmount to Pay : ₹{final_total:.2f}")
 
                 confirm = input("Confirm Payment? (yes/no) : ").lower()
 
@@ -111,37 +118,39 @@ def generate_bill():
                     order["status"] = "Completed"
                     order["payment_status"] = "Paid"
                     order["payment_method"] = payment_method
-                    order["total_amount"] = final_total
+                    order["total_amount"] = round(final_total, 2)
 
                     with open("app/database/order.json", "w") as file:
                         json.dump(orders, file, indent=4)
 
-                    print("==================================================")
-                    print("             PAYMENT SUCCESSFUL")
-                    print("==================================================")
-                    print("Order ID :", order["order_id"])
+                    print("\n======================================================")
+                    print("                 PAYMENT SUCCESSFUL")
+                    print("======================================================")
+
+                    print("Order ID       :", order["order_id"])
                     print("Payment Method :", payment_method)
-                    print("Amount Paid : ₹", final_total)
+                    print(f"Amount Paid    : ₹{final_total:.2f}")
                     print("Payment Status : Paid")
-                    print("Order Status : Completed")
-                    print("==================================================")
-                    print("                 THANK YOU!")
-                    print("==================================================")
+                    print("Order Status   : Completed")
+
+                    print("======================================================")
+                    print("                    THANK YOU!")
+                    print("======================================================")
 
                 else:
 
-                    print("-----------------------------")
-                    print("Payment cancelled")
-                    print("-----------------------------")
+                    print("\n========================================")
+                    print("          Payment cancelled")
+                    print("========================================")
 
                 return
 
-        print("-----------------------------")
-        print("Order ID not found")
-        print("-----------------------------")
+        print("\n========================================")
+        print("           Order ID not found")
+        print("========================================")
 
     except Exception as f:
         Error_log(str(f))
-        print("-----------------------------")
-        print("Something went wrong")
-        print("-----------------------------")
+        print("\n========================================")
+        print("          Something went wrong")
+        print("========================================")

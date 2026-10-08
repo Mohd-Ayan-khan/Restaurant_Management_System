@@ -43,8 +43,11 @@
                 "quantity": 1
             }
         ],
-        "status": "Pending",
-        "order_time": "06-10-2026 10:11:29 PM"
+        "status": "Completed",
+        "order_time": "06-10-2026 10:11:29 PM",
+        "payment_status": "Paid",
+        "payment_method": "Cash",
+        "total_amount": 310.90500000000003
     },
     {
         "order_id": "3",
@@ -65,8 +68,11 @@
                 "quantity": 1
             }
         ],
-        "status": "Pending",
-        "order_time": "06-10-2026 10:14:38 PM"
+        "status": "Completed",
+        "order_time": "06-10-2026 10:14:38 PM",
+        "payment_status": "Paid",
+        "payment_method": "Cash",
+        "total_amount": 131.35
     },
     {
         "order_id": "4",
