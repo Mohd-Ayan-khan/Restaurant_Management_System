@@ -1,0 +1,28 @@
+[
+    {
+        "User Id": "1",
+        "Full Name": "Ayan Solanki",
+        "user_id": "ayankhan101",
+        "Email": "ayankhan099@gmail.com",
+        "Password": "ayankhan99",
+        "Role": "admin"
+    },
+    {
+        "User Id": "2",
+        "Full Name": "AYAN SOLANKI",
+        "Username": "ayan",
+        "Password": "ayankhan",
+        "Email": "ayankhan@gmail.com",
+        "Contact": "7878787878",
+        "Role": "Manager"
+    },
+    {
+        "User Id": "3",
+        "Full Name": "ANAS",
+        "Username": "anas",
+        "Password": "anaskhan",
+        "Email": "anas@gmail.com",
+        "Contact": "7878787878",
+        "Role": "Receptionist"
+    }
+]

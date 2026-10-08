@@ -1,0 +1,558 @@
+==================================================
+TIME  : 24-09-2026 03:51:12 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'sing_in' object has no attribute 'Email'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:06:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:07:06 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:11:32 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 03:18:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:28:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 26-09-2026 11:33:37 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:14:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'menu_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:16:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:21:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:23:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:28:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:32:57 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:39:09 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'item' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 27-09-2026 03:40:26 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : menu_validate.delete_item_validate() takes 2 positional arguments but 3 were given
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:03:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:08:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+
+==================================================
+TIME  : 27-09-2026 06:10:02 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/staff_data.json'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 12:58:15 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 01:03:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 02:51:29 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'staff' object has no attribute 'userr_name'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:04:50 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:09:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:16:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:18:53 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:25:54 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'gmail'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:27:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'password'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:27:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'role'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:29:21 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'role'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:30:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : staff.staff_dashboard() takes 0 positional arguments but 1 was given
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:33:43 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'Password'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:36:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:45:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:56:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 03:58:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'User Id'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:58:32 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 04:59:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+
+==================================================
+TIME  : 28-09-2026 05:02:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : dump() missing 1 required positional argument: 'fp'
+==================================================
+
+==================================================
+TIME  : 30-09-2026 06:43:31 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'dict' object has no attribute 'append'
+==================================================
+
+==================================================
+TIME  : 30-09-2026 06:45:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'dict' object has no attribute 'append'
+==================================================
+
+==================================================
+TIME  : 30-09-2026 06:47:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'dict' object has no attribute 'append'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:18:36 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:20:17 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:21:24 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isdigit'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:13 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: ''
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:23:13 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:24:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:29:20 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:30:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:33:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:33:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:35:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:48:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 01-10-2026 02:48:03 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot unpack non-iterable NoneType object
+==================================================
+
+==================================================
+TIME  : 02-10-2026 10:04:44 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : validator_functions.id_validate() takes 1 positional argument but 2 were given
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:47:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:51:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 02:58:51 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:11:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : '<=' not supported between instances of 'str' and 'int'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:37:38 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:54:31 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 03:58:52 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 04:15:40 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:07 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'validator_functions' object has no attribute 'update_validate'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:30 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'aa'
+==================================================
+
+==================================================
+TIME  : 03-10-2026 09:53:56 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'int' object has no attribute 'isspace'
+==================================================
+
+==================================================
+TIME  : 04-10-2026 05:09:33 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : invalid literal for int() with base 10: 'a'
+==================================================
+
+==================================================
+TIME  : 04-10-2026 05:27:28 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : argument of type 'int' is not iterable
+==================================================
+
+==================================================
+TIME  : 06-10-2026 12:00:38 AM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'app/database/booking.json'
+==================================================
+
+==================================================
+TIME  : 06-10-2026 03:31:11 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : staff.Table_dashboard() takes 0 positional arguments but 1 was given
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:04:46 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:07:18 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:09:08 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:21:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 07:37:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 08:54:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 08:58:10 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 09:03:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 09:06:05 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:08:22 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:11:29 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : list indices must be integers or slices, not str
+==================================================
+
+==================================================
+TIME  : 06-10-2026 10:17:14 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : list indices must be integers or slices, not str
+==================================================
+
+==================================================
+TIME  : 07-10-2026 07:46:57 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'unit'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 07:48:16 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : 'unit'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:07:55 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:17:48 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : cannot access local variable 'full_name' where it is not associated with a value
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:17:48 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:19:41 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:26:01 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:27:59 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : [Errno 2] No such file or directory: 'database/user.json'
+==================================================
+
+==================================================
+TIME  : 07-10-2026 08:59:42 PM
+PATH  : D:\Restaurant_Management_System
+ERROR : Expecting value: line 1 column 1 (char 0)
+==================================================
+
